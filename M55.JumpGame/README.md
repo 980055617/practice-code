@@ -1,4 +1,4 @@
-# [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=study-plan-v2&envId=top-interview-150) ---- Medium
+# [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/jump-game/?envType=study-plan-v2&envId=top-interview-150) ---- Medium
 
 You are given an integer array `nums`. You are initially positioned at the array's **first index**, and each element in the array represents your maximum jump length at that position.
 

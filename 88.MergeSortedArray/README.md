@@ -1,5 +1,5 @@
 # 88. Merge Sorted Array
-
+**Easy**
 You are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.
 
 Merge `nums1` and `nums2` into a single array sorted in non-decreasing order.
@@ -33,10 +33,10 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 
 Constraints:
 
-`nums1.length == m + n`
-`nums2.length == n`
-`0 <= m, n <= 200`
-`1 <= m + n <= 200`
-`-109 <= nums1[i], nums2[j] <= 109`
+`nums1.length == m + n`  
+`nums2.length == n`  
+`0 <= m, n <= 200`  
+`1 <= m + n <= 200`  
+`-109 <= nums1[i], nums2[j] <= 109`  
 
 Follow up: Can you come up with an algorithm that runs in O(m + n) time?

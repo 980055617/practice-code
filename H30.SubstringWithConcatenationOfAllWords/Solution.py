@@ -17,6 +17,7 @@ class Solution:
                 else:
                     check_word[s[word:word+l_word]] = 1
 
+            # compare with origin dict
             for i in wordFreq:
                 if i in check_word:
                     if check_word[i] == wordFreq[i]:

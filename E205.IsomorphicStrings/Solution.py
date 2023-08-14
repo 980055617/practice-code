@@ -13,4 +13,4 @@ if __name__ == '__main__':
     s = "egg"
     t = "add"
     solution = Solution()
-    print(solution.romanToInt(s,t))
+    print(solution.isIsomorphic(s,t))

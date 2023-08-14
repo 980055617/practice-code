@@ -10,4 +10,4 @@ if __name__ == '__main__':
     ransomNote = "a"
     magazine = "b"
     solution = Solution()
-    print(solution.romanToInt(ransomNote,magazine))
+    print(solution.canConstruct(ransomNote,magazine))

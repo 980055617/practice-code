@@ -42,12 +42,7 @@ Input: board =
 Output: false
 Explanation: Same as Example 1, except with the 5 in the top left corner being modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
 ```
-**Example 3:**
-```
-Input: prices = [7,6,4,3,1]
-Output: 0
-Explanation: There is no way to make a positive profit, so we never buy the stock to achieve the maximum profit of 0.
-```
+
 
 **Constraints:**
 

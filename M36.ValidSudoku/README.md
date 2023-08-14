@@ -11,6 +11,7 @@ Determine if a `9 x 9` Sudoku board is valid. Only the filled cells need to be v
 - Only the filled cells need to be validated according to the mentioned rules.
 
 **Example 1:**
+
 ![example1](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png)
 ```
 Input: board = 

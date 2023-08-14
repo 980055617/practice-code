@@ -1,4 +1,4 @@
-# [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/jump-game/?envType=study-plan-v2&envId=top-interview-150) ---- Medium
+# [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?envType=study-plan-v2&envId=top-interview-150) ---- Medium
 
 Given an `m x n` `matrix`, return all elements of the `matrix` in spiral order.
 

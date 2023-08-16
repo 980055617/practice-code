@@ -1,15 +1,18 @@
 class Solution:
-    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
-        answer = {}
-        for i in strs:
-            Sword = ''.join(sorted(i))
-            if Sword in answer:
-                answer[Sword].append(i)
+    def merge(self, intervals: list[list[int]]) -> list[list[int]]:
+        intervals = sorted(intervals,key=lambda x: x[0])
+
+        ans = []
+
+        for i in intervals:
+            if not ans or ans[-1][1] < i[0]:
+                ans.append(i)
             else:
-                answer[Sword] = [i]
-        return answer.values()
+                ans[-1][1] = max(ans[-1][1],i[1])
+
+        return ans
 
 if __name__ == '__main__':
-    strs = ["eat","tea","tan","ate","nat","bat"]
+    intervals = [[1,3],[2,6],[8,10],[15,18]]
     solution = Solution()
-    print(solution.groupAnagrams(strs))
+    print(solution.merge(intervals))

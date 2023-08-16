@@ -1,6 +1,6 @@
 # [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/?envType=study-plan-v2&envId=top-interview-150) ---- Medium
 
-Given an array of `intervals` where `intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]`, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+Given an array of `intervals` where `intervals[i] = [start(i), end(i)]`, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
 **Example 1:**
 ```
@@ -20,4 +20,4 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 - `1 <= intervals.length <= 10^4`
 - `intervals[i].length == 2`
-- `0 <= start<sub>i</sub> <= end<sub>i</sub> <= 10^4`
+- `0 <= start(i) <= end(i) <= 10^4`

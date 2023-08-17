@@ -1,14 +1,33 @@
 class Solution:
-    def removeDuplicates(self, nums: list[int]) -> int:
-        j = 1
-        for i in range(1,len(nums)):
-            if nums[i] != nums[i-1]:
-                nums[j] = nums[i]
-                j+=1
+    def isValid(self, s: str) -> bool:
+        tmp = []
+        for i in s:
+            if i == "(" or i == "[" or i == "{":
+                tmp.append(i)
+            else:
+                if len(tmp) == 0:
+                    return False
+                elif i == ")":
+                    if tmp[-1] != "(":
+                        return False
+                    tmp.pop()
+                elif i == "]":
+                    if tmp[-1] != "[":
+                        return False
+                    tmp.pop()
+                elif i == "}":
+                    if tmp[-1] != "{":
+                        return False
+                    tmp.pop()
+        if len(tmp) == 0:
+            return True
+        else:
+            return False
 
-        return j
+
+
 
 if __name__ == '__main__':
-    nums1 = [1,1,2]
+    s = "()"
     solution = Solution()
-    print(solution.removeDuplicates(nums1))
+    print(solution.isValid(s))

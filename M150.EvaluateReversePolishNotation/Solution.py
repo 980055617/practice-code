@@ -4,6 +4,9 @@ class Solution:
         unUsed = []
         for i in tokens:
             if i.isdigit():
+                unUsed.append(i)
+            else:
+                
         return None
 
 if __name__ == '__main__':
